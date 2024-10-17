@@ -1,7 +1,7 @@
-"use client"; // Ensure this is a client-side component
+"use client";
 import "./globals.css";
 import { Provider } from "react-redux";
-import store from "./Containers/State/store"; // Import your Redux store here
+import store from "./Containers/State/store";
 
 export default function RootLayout({ children }) {
 	return (
